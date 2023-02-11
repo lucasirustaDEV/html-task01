@@ -17,6 +17,7 @@ header h1 {
     top: 20px;
     left: 20px;
     color: white;
+    font-size: 100px;
 }
 
 .title {
@@ -35,12 +36,8 @@ header h1 {
     background-color: white;
 }
 
-main {
-    display: flex;
-}
-
 aside {
-    width: 20%;
+    position: absolute;
 }
 aside nav a{
     display: block;
@@ -49,7 +46,12 @@ aside nav a{
 }
 
 .content {
-    width: 80%;
+    margin-left: 200px;
+    min-width: 1000px;
+}
+
+.content h4 {
+    margin-bottom: 20px;
 }
 
 article {
@@ -60,10 +62,3 @@ footer {
     margin-top: 30px;
     text-align: center;
 }
-
-.contact h4 {
-    margin-bottom: 20px;
-}
-
-
-
