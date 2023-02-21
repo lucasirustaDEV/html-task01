@@ -152,6 +152,15 @@ table {
     margin-bottom: 30px;
     width: 100%;
 }
+th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+table, th, td {
+    border-top: 1px solid #D98576;
+    border-bottom: 1px solid #D98576;
+    border-collapse: collapse;
+  }
 .game-date {
     text-align: center;
     padding-top: 20px;
@@ -170,6 +179,13 @@ span.text-bold {
     flex-wrap: wrap;
 }
 
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #C9DFDD;
+}
 
 footer {
     display: flex;
